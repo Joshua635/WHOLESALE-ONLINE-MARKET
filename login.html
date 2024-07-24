@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+            background-image: url('./images/—Pngtree—ancient\ website\ construction\ chinese\ style_1042354.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-content: center;
+            justify-items: center;
+            
+        }
+        .login{
+            position: relative;
+            padding: 60px;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(15px);
+            border: 1px solid black;
+            border-bottom: 1px solid regba(255, 255, 255. 0.5);
+            border-right: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+            justify-items: center;
+            justify-content: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+
+        }
+        .login h2{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: 600;
+            color: #8f2c24;
+            margin-bottom: 10px;
+            justify-content: center;
+            justify-items: center;
+        }
+        .login .inputBox{
+            position: relative;
+            justify-items: center;
+            justify-content: center;
+            /* border: 1px solid black; */
+            
+        }
+        .login .inputBox  input{
+            position: relative;
+            width: 80%;
+            padding: 15px 20px;
+            outline: none;
+            font-size: 1.25em;
+            color: #8f2c24;
+            border-radius: 5px;
+            background: #fff;
+            border: none;
+            margin-bottom: 30px;
+            justify-content: center;
+            justify-items: center;
+            border: 1px solid black;
+        }
+        .login .inputBox ::placeholder{
+            color: #8f2c24;
+            justify-items: center;
+            justify-content: center;
+           
+            
+        }
+        .login .inputBox #button{
+            position: relative;
+            border: 1px solid black;
+            outline: none;
+            background-color: green;
+            color: red;
+            cursor: pointer;
+            font-size: 1.25em;
+            font-weight: 500;
+            transition: 0.5s;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+               
+        }
+        .header1{
+    background-image: url('./images/—Pngtree—colourful\ banner\ of\ fruits\ on_15531161.png');
+    background-position: 60% 60%;
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+    /* border: 2px solid white; */
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+    text-shadow: 1px 1px 20px yellow;
+    /* border-bottom: 1px soid black; */
+}
+.nav1 ul{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 20px black;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+   
+
+}
+.nav1 ul li{
+    float: left;
+}
+.nav1 ul li a{
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    text-decoration: none;
+    justify-content: center;
+   
+}
+a:hover{
+            background-color: red;
+            color: black;
+            text-decoration: underline;
+        }
+        input:hover{
+            background-color: red;
+            color: black;
+            text-decoration: underline;
+        }
+        .footer1{
+            background-image: url('./images/—Pngtree—sports\ poster\ background\ material_1049948.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-decoration: none;
+            justify-content: space-between;
+            color: white;
+            /* border: 2px solid white; */
+            display: flex;
+            text-align: center;
+            padding: 50px;
+            box-shadow: 1px 1px 10px black;
+            
+        }
+        @media screen and (max-width:700px) {
+            .header1{
+        font-size: 10px;
+        text-align: center;
+        text-shadow: 2px 2px 20px red ;
+    }
+    .nav1 ul{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 20px black;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+   
+   
+
+}
+.nav1 ul li{
+    float: left;
+}
+.nav1 ul li a{
+    color: black;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    text-decoration: none;
+    justify-content: center;
+   
+}
+.footer1{
+    padding: 40px;
+   
+    margin-top: 200px;
+}
+.login{
+            position: relative;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(15px);
+            border: 1px solid black;
+            border-bottom: 1px solid regba(255, 255, 255. 0.5);
+            border-right: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+            justify-items: center;
+            justify-content: center;
+            margin-top: 200px;
+            
+
+        }
+        .login h2{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 300;
+            color: #8f2c24;
+            margin-bottom: 10px;
+            justify-content: center;
+            justify-items: center;
+        }
+        .login .inputBox{
+            position: relative;
+            justify-items: center;
+            justify-content: center;
+            /* border: 1px solid black; */
+            
+        }
+        .login .inputBox  input{
+            position: relative;
+            width: 40%;
+            padding: 5px 10px;
+            outline: none;
+            font-size: 20px;
+            color: #8f2c24;
+            border-radius: 5px;
+            background: #fff;
+            border: none;
+            margin-bottom: 15px;
+            justify-content: center;
+            justify-items: center;
+            border: 1px solid black;
+        }
+        .login .inputBox ::placeholder{
+            color: #8f2c24;
+            justify-items: center;
+            justify-content: center;
+           
+            
+        }
+        .login .inputBox #button{
+            position: relative;
+            border: 1px solid black;
+            outline: none;
+            background-color: green;
+            color: red;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: 200;
+            transition: 0.5s;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+               
+        }
+
+
+
+
+            
+        }
+
+       
+       
+    </style>
+</head>
+<body>
+    <div class="header1">
+        <h1>WHOLESALE    &nbsp;    ONLINE  &nbsp;  MARKET</h1>
+    </div>
+    <div class="nav1">
+        <ul>
+            <li><a href="index.html">HOME   &nbsp;  </a></li>
+            <li><a href="login.html">LOGIN  &nbsp;   </a></li>
+            <li><a href="">CATEGORIES   &nbsp;  </a></li>
+            <li><a href="about.html">ABOUT   &nbsp;   </a></li>
+        </ul>
+    </div>
+
+    <center>
+    <div class="login">
+        <h2>Sign In</h2>
+        <div class="inputBox">
+            <input type="text" placeholder="Username">
+        </div>
+        <div class="inputBox">
+            <input type="password" placeholder="password">
+        </div>
+        <div class="inputBox">
+            <input type="submit"  placeholder="button">
+
+        </div>
+        <div class="group">
+            <a href="">Forget Password</a>
+            <a href="">Signup</a>
+        </div>
+    </div>
+    </center>
+    <div class="footer1">
+
+    </div>
+
+    
+</body>
+</html>

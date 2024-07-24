@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wholesale Online Market</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+
+        }
+        
+        .nav a:hover{
+            background-color: red;
+            color: black;
+            text-decoration: underline;
+        }
+        
+        .flex-container{
+            display: flex;
+            /* border: 3px solid black; */
+            /* background-color: yellow; */
+            justify-content: center;
+           
+        }
+        .flex-container > .box1{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Baby\ Care\ &\ Female\ Hygine.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            display: block;
+            border-radius: 1rem;
+
+           
+        }
+        .flex-container > .box2{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Biscuits\ &\ Cookies.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .flex-container > .box3{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Chocolates\ &\ Candies.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .flex-container > .box4{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Cleaning\ &\ Laundry.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .flex-container > .box5{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Dairy\,\ Fresh\ &\ Frozen.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .flex-container1{
+            display: flex;
+            /* border: 3px solid black; */
+            /* background-color: yellow; */
+            justify-content: center;
+           
+           
+        }
+        .flex-container1 > .box6{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Face\ &\ Oral\ Care.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            display: block;
+            border-radius: 1rem;
+
+           
+        }
+        .flex-container1 > .box7{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Foodgrains\,\ oil\ &\ Masala.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .flex-container1 > .box8{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Fruits\ &\ Vegetables.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .flex-container1 > .box9{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Hair\ &\ Body\ Care.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .flex-container1 > .box10{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Health\ &\ Wellness.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .flex-container2{
+            display: flex;
+            /* border: 3px solid black; */
+            /* background-color: yellow; */
+            justify-content: center;
+           
+           
+        }
+        .flex-container2 > .box11{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Home\ &\ Kitchen\ Essentials.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+
+           
+        }
+        .flex-container2 > .box12{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Instant\ Packaged\ Food.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .flex-container2 > .box13{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Sauces\,\ Spreads\ &\ Cooking\ Essentials.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .flex-container2 > .box14{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Snacks\ &\ Namkeen.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .flex-container2 > .box15{
+            width: 200px;
+            height: 150px;
+            padding: 30px;
+            margin: 20px;
+            /* background-color: white; */
+            background-image: url('./images/Tea\,\ Coffee\ &\ Cold\ Drinks.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 1rem;
+        }
+        .footer{
+            background-image: url('./images/—Pngtree—sports\ poster\ background\ material_1049948.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-decoration: none;
+            justify-content: space-between;
+            color: white;
+            /* border: 2px solid white; */
+            display: flex;
+            text-align: center;
+            padding: 50px;
+            box-shadow: 1px 1px 10px black;
+            margin-top: 10px;
+            
+        }
+        
+        .pg ul{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        overflow: hidden;
+        display: flex;
+        }
+        .pg ul li{
+            float: left;
+}
+.pg ul li a{
+    color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    padding: 50px;
+}
+.pg1 ul{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        overflow: hidden;
+        display: flex;
+        }
+        .pg1 ul li{
+            float: left;
+}
+.pg1 ul li a{
+    color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    padding: 50px;
+    margin-left: 30px;
+}
+.pg2 ul{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        overflow: hidden;
+        display: flex;
+        }
+        .pg2 ul li{
+            float: left;
+           
+}
+.pg2 ul li a{
+    color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 56px;
+    
+}
+.flex-container > .box1:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container > .box2:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container > .box3:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container > .box4:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container > .box5:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container1 > .box6:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container1 > .box7:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container1 > .box8:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container1 > .box9:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container1 > .box10:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container2 > .box11:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container2 > .box12:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container2 > .box13:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container2 > .box14:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+.flex-container2 > .box15:hover{
+    cursor: pointer;
+    transition-delay: 0.3s;
+    transform: translate(-1px, -13px);
+}
+
+
+
+
+@media screen and (max-width:700px) {
+    .header{
+        font-size: 10px;
+        text-align: center;
+        text-shadow: 2px 2px 20px red ;
+    }
+    .nav ul{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 20px black;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+   
+   
+
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    color: black;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    text-decoration: none;
+    justify-content: center;
+   
+}
+.header3{
+    font-size: 10px;
+    text-align: center;
+}
+.header2{
+    font-size: 5px;
+    margin: 5px;
+    padding: 0;
+    
+    
+}
+
+.flex-container > .box1{
+            width: 9000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+           
+}
+.flex-container > .box2{
+    width: 6000px;
+    height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container > .box3{
+            width: 6000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container > .box4{
+    width: 9000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container > .box5{
+    width: 9000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container1 > .box6{
+            width: 6000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container1 > .box7{
+    width: 9000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container1 > .box8{
+    width: 9000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container1 > .box9{
+    width: 9000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container1 > .box10{
+    width: 9000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container2 > .box11{
+            width: 6000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container2 > .box12{
+            width: 6000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container2 > .box13{
+            width: 6000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container2 > .box14{
+            width: 6000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.flex-container2 > .box15{
+            width: 6000px;
+            height: 30px;
+            /* padding: 20px; */
+            float: left;
+            margin-bottom: 20px;
+            margin: 10px;
+           
+}
+.pg ul{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        /* display: flex; */
+        
+        }
+        .pg ul li{
+           float: left;
+            
+}
+.pg ul li a{
+    color: black;
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    /* padding: 10px; */
+    margin-left: 0px;
+    margin-top: 100px;
+   
+   
+}
+.pg ul li p {
+    text-justify: space-between;
+    padding: 4px;
+    margin-top: 0px;
+    text-align: center;
+   float: left;
+   margin: 0;
+  
+}
+.pg1 ul{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        /* display: flex; */
+        
+        }
+        .pg ul li{
+           float: left;
+            
+}
+.pg1 ul li a{
+    color: black;
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    /* padding: 10px; */
+    margin-left: 0px;
+    margin-top: 100px;
+   
+   
+}
+.pg1 ul li p {
+    text-justify: space-between;
+    padding: 4px;
+    margin-top: 0px;
+    text-align: center;
+   float: left;
+   margin: 0;
+  
+}
+.pg2 ul{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        /* display: flex; */
+        
+        }
+        .pg ul li{
+           float: left;
+            
+}
+.pg2 ul li a{
+    color: black;
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    justify-content: center;
+    /* padding: 10px; */
+    margin-left: 0px;
+    margin-top: 100px;
+   
+   
+}
+.pg2 ul li p {
+    text-justify: space-between;
+    padding: 4px;
+    margin-top: 0px;
+    text-align: center;
+   float: left;
+   margin: 0;
+  
+}
+.section{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+
+}
+.section img{
+    height: 100px;
+    width: 400px;
+}
+.footer{
+    padding: 30px;
+}
+
+
+
+
+    
+}
+
+
+
+
+
+        
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>WHOLESALE    &nbsp;    ONLINE  &nbsp;  MARKET</h1>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">HOME   &nbsp;  </a></li>
+            <li><a href="login.html">LOGIN  &nbsp;   </a></li>
+            <li><a href="">CATEGORIES   &nbsp;  </a></li>
+            <li><a href="">ABOUT   &nbsp;   </a></li>
+        </ul>
+    </div>
+    <div class="header3">
+        <h1>Wholesale - B2B Online Shopping Marketplace</h1>
+    </div>
+
+    <div class="header2">
+        <h1>SHOP BY CATEGORIES:</h1>
+    </div>
+
+    <div class="flex-container">
+        <div class="box1">
+              
+        </div>
+       
+        <div class="box2">
+
+        </div>
+        <div class="box3">
+
+        </div>
+        <div class="box4">
+
+        </div>
+        <div class="box5">
+
+        </div>
+    </div>
+    <div class="pg">
+        <ul>
+            <li><a href="page1.html"><p>Baby care & Female Hygine</p> </a></li>  
+            <li><a href="page2.html"><p>Biscuits & Cookies</p></a></li>
+            <li><a href="page3.html"><p>Chocolates & Candies</p></a></li>
+            <li><a href="page4.html"><p>Cleaning & Laundary</p></a></li>
+            <li><a href=""><p>Dairy,Fresh & Frozen<p></p></a></li>
+        </ul>
+    </div>
+
+  
+
+    <div class="flex-container1">
+        <div class="box6">
+
+        </div>
+        <div class="box7">
+
+        </div>
+        <div class="box8">
+
+        </div>
+        <div class="box9">
+
+        </div>
+        <div class="box10">
+
+        </div>
+    </div>
+    <div class="pg1">
+        <ul>
+            <li><a href=""><p>Face & Oral care</p> </a></li>  
+            <li><a href=""><p>Foodgrains, oil & Masala</p></a></li>
+            <li><a href=""><p>Fruits & Vegetables</p></a></li>
+            <li><a href=""><p>Hair & Body care</p></a></li>
+            <li><a href=""><p>Health & Wellness</p></a></li>
+        </ul>
+    </div>
+    <div class="section">
+        <img src="./images/—Pngtree—combo offer wide banner_1608270.png" height="200px" width="1000px" alt="">
+        
+
+    </div>
+
+    <div class="flex-container2">
+        <div class="box11">
+
+        </div>
+        <div class="box12">
+
+        </div>
+        <div class="box13">
+
+        </div>
+        <div class="box14">
+
+        </div>
+        <div class="box15">
+
+        </div>
+    </div>
+    <div class="pg2">
+        <ul>
+            <li><a href=""><p>Home&Kitchen</p> </a></li>  
+            <li><a href=""><p>Instant Packaged Feed</p></a></li>
+            <li><a href=""><p>Sauces,Spreads&Cooking</p> </a></li>
+            <li><a href=""><p>Snacks&Namkeen</p></a></li>
+            <li><a href=""><p>Tea,Coffee&Cold Drinks</p></a></li>
+        </ul>
+    </div>
+
+    <div class="footer">
+
+    </div>
+    
+
+
+    
+    
+</body>
+</html>

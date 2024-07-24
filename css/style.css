@@ -1,0 +1,76 @@
+.header{
+    background-image: url('../images/—Pngtree—colourful\ banner\ of\ fruits\ on_15531161.png');
+    background-position: 60% 60%;
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+    /* border: 2px solid white; */
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+    text-shadow: 1px 1px 20px yellow;
+    /* border-bottom: 1px soid black; */
+}
+.nav ul{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 20px black;
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+   
+
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    text-decoration: none;
+    justify-content: center;
+   
+}
+.header2{
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+    /* border: 2px solid white; */
+    display: flex;
+    text-align: center;
+    /* padding: 10px; */
+    font-size: 10px;
+    text-shadow: 1px 1px 20lpx black;
+    /* border-bottom: 1px soid black; */
+    margin-top: 5px;
+   justify-content: left;
+   margin-left: 25px;
+   
+}
+.section{
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+.header3{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
